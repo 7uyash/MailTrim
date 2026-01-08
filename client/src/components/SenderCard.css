@@ -1,0 +1,184 @@
+.sender-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.sender-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.sender-header {
+  margin-bottom: 15px;
+}
+
+.sender-name {
+  color: #0f172a;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  word-break: break-word;
+}
+
+.sender-email {
+  color: #64748b;
+  font-size: 0.875rem;
+  word-break: break-all;
+  font-weight: 400;
+}
+
+.sender-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.stat-value.unread {
+  color: #dc2626;
+}
+
+.recent-subjects {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.recent-subjects strong {
+  color: #0f172a;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.recent-subjects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-subjects li {
+  color: #64748b;
+  padding: 6px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.875rem;
+}
+
+.recent-subjects li:last-child {
+  border-bottom: none;
+}
+
+.sender-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.unsubscribe-badge {
+  background: #dcfce7;
+  color: #166534;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #bbf7d0;
+}
+
+.unsubscribe-button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  flex: 1;
+  min-width: 150px;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.unsubscribe-button:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+}
+
+.unsubscribe-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 12px;
+  padding: 12px;
+  background: #fef2f2;
+  color: #dc2626;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  border: 1px solid #fecaca;
+}
+
+.additional-links {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.additional-links p {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.additional-link {
+  display: block;
+  color: #2563eb;
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-bottom: 5px;
+  word-break: break-all;
+  font-weight: 500;
+}
+
+.additional-link:hover {
+  color: #1d4ed8;
+}
+
+.additional-link:hover {
+  text-decoration: underline;
+}
+
